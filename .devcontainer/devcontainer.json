@@ -8,6 +8,18 @@
 		"ghcr.io/devcontainers/features/docker-in-docker:2": {
 			"version": "latest"
 		}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-azuretools.vscode-containers",
+				"ms-azuretools.vscode-docker",
+				"EditorConfig.EditorConfig",
+				"dbaeumer.vscode-eslint",
+				"esbenp.prettier-vscode",
+				"Vue.volar"
+			]
+		}
 	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
